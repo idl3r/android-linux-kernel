@@ -32,7 +32,7 @@
 #ifdef CONFIG_MSM_GPIOMUX
 #include <mach/gpiomux.h>
 #endif
-#include <synaptics_dsx.h>
+#include "synaptics_dsx.h"
 #include "synaptics_dsx_core.h"
 #ifdef KERNEL_ABOVE_2_6_38
 #include <linux/input/mt.h>
